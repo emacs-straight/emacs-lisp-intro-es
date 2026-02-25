@@ -1,0 +1,2 @@
+;; Generated package description from emacs-lisp-intro-es.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "emacs-lisp-intro-es" "0.0.20260217.163329" "ELisp intro manual in Spanish" 'nil :commit "355187879e78812f1717ae6fa1bd94098b7aef1a" :url "https://elpa.gnu.org/packages/emacs-lisp-intro-es.html" :authors '(("David Arroyo Menéndez" . "d.arroyome@alumnos.urjc.es")) :maintainer '("David Arroyo Menéndez" . "d.arroyome@alumnos.urjc.es"))
