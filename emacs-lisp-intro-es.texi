@@ -4320,7 +4320,7 @@ verdad
 @emph{then} (entonces) se evalua la expresi@'on.'' Si la prueba no es
 verdad, la
 expresi@'on no se evalua. Por ejemplo, podr@'{@dotless{i}}a
-tomar una decisi@'on como, ``exclamdown{}si es c@'alido y
+tomar una decisi@'on como, ``@exclamdown{}si es c@'alido y
 soleado, entonces ir a la playa!''
 
 @menu
@@ -4532,7 +4532,7 @@ c@'alido y soleado, entonces ir a la playa, de otro modo @exclamdown{}leer
 un
 libro!''
 
-La palabra ``else'' (``de otro modo''} no se escribe en el c@'odigo
+La palabra ``else'' (``de otro modo'') no se escribe en el c@'odigo
 Lisp; la parte-de_otro_modo de una expresi@'on @code{if}
 viene despu@'es de la parte-entonces. En Lisp,
 la parte-de_otro_modo suele escribirse al inicio

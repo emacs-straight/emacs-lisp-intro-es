@@ -3377,7 +3377,7 @@ función ‘beginning-of-buffer’.
    La idea básica detras de ‘if’, es que "_if_ (si) una prueba es verdad
 _then_ (entonces) se evalua la expresión."  Si la prueba no es verdad,
 la expresión no se evalua.  Por ejemplo, podría tomar una decisión como,
-"exclamdownsi es cálido y soleado, entonces ir a la playa!"
+"¡si es cálido y soleado, entonces ir a la playa!"
 
 * Menu:
 
@@ -3525,8 +3525,8 @@ parte-de_otro_modo _se_ evalúa.  Podría pensar en esto como la
 alternativa del día nublado para la decisión "si es cálido y soleado,
 entonces ir a la playa, de otro modo ¡leer un libro!"
 
-   La palabra "else" ("de otro modo" no se escribe en el código Lisp; la
-parte-de_otro_modo de una expresión ‘if’ viene después de la
+   La palabra "else" ("de otro modo") no se escribe en el código Lisp;
+la parte-de_otro_modo de una expresión ‘if’ viene después de la
 parte-entonces.  En Lisp, la parte-de_otro_modo suele escribirse al
 inicio de una nueva línea y se indenta menos que la parte-entonces:
 
@@ -18193,243 +18193,243 @@ Node: Ejemplo de expresión let147639
 Ref: Ejemplo de expresión let-Footnote-1149474
 Node: Variables let inicializadas149749
 Node: if151455
-Node: if en más detalle152439
-Node: tipo-de-animal en detalle155333
-Node: else157967
-Node: Verdad y falsedad161061
-Node: nil explicado162043
-Node: save-excursion164199
-Node: Punto y marca165027
-Node: Plantilla para save-excursion168178
-Node: Revisar169506
-Node: Ejercicios defun177731
-Node: Un paseo a través de los búffers178189
-Node: Encontrando más179434
-Node: simplified-beginning-of-buffer183573
-Node: mark-whole-buffer188263
-Node: resumen de mark-whole-buffer189152
-Node: Cuerpo de mark-whole-buffer190587
-Node: append-to-buffer193891
-Node: resumen de append-to-buffer194646
-Node: append interactivo197463
-Node: cuerpo append-to-buffer200035
-Node: append save-excursion202243
-Node: Revisa lo relacionado con el búffer207383
-Node: Ejercicios de búffer209558
-Node: Más complejidad210083
-Node: copy-to-buffer211215
-Node: insert-buffer214023
-Node: código insert-buffer215401
-Node: insert-buffer interactivo216449
-Node: Búffer solo lectura216997
-Node: b para interactivo217637
-Node: cuerpo insert-buffer218802
-Node: si y o220060
-Node: Insertar o223277
-Node: Insertar let225678
-Node: Nuevo insert-buffer229545
-Node: beginning-of-buffer230801
-Node: Argumentos opcionales232456
-Node: beginning-of-buffer opt arg235909
-Node: Desenmarañar beginning-of-buffer236915
-Node: El caso del buffer largo238217
-Node: Pequeño caso de búffer240816
-Node: Completo beginning-of-buffer242542
-Node: Revisar el segundo búffer relacionado245669
-Node: Ejercicio opcional247514
-Node: Encogiendo y extendiendo248017
-Node: Ventajas de encoger248720
-Node: save-restriction250738
-Node: what-line252781
-Node: Ejercicio narrow257182
-Node: Car cdr y cons258272
-Node: Nombres extraños259448
-Node: car y cdr260473
-Node: cons265056
-Node: Construir una lista266129
-Ref: Construir una lista-Footnote-1267823
-Node: length268040
-Node: nthcdr269674
-Node: nth272578
-Node: setcar274004
-Node: setcdr276394
-Node: Ejercicio cons278005
-Node: Cortando y almacenando texto278409
-Node: Almacenando Texto279967
-Node: zap-to-char282119
-Node: Completar zap-to-char283279
-Node: zap-to-char interactivo285396
-Node: cuerpo zap-to-char286955
-Node: search-forward288560
-Node: progn291754
-Node: Resumiendo zap-to-char293587
-Node: kill-region294760
-Node: Completa kill-region295798
-Node: condition-case300514
-Node: Macro Lisp303301
-Node: copy-region-as-kill305825
-Node: Completar copy-region-as-kill306785
-Node: cuerpo copy-region-as-kill309844
-Node: last-command & this-command311001
-Node: Función kill-append313352
-Node: Función kill-new317567
-Node: Disgresión dentro de C329146
-Ref: Disgresión dentro de C-Footnote-1334658
-Node: defvar334851
-Node: Mira el valor actual de la variable336526
-Node: defvar y asterisk338547
-Node: Revisión de cons y search-fwd340529
-Node: Buscar ejercicios343709
-Node: Implementación de listas344544
-Node: Listas diagramadas345724
-Node: Símbolos como cajas352178
-Node: Ejercicio Lista354314
-Node: Pegando354693
-Node: Resumen del anillo de la muerte356220
-Node: kill-ring-yank-pointer358191
-Node: pegar Ejercicio nthcdr360862
-Node: Bucles y recursión361773
-Ref: Bucles y recursión-Footnote-1362996
-Node: while363574
-Node: Bucles while365112
-Node: Ejemplo de bucle366946
-Node: print-elements-of-list370514
-Node: Incrementando el Bucle373214
-Node: Incrementando los detalles de los bucles373837
-Node: Ejemplo de Incremento375349
-Node: Partes Inc de Ejemplo377829
-Node: Ejemplo Inc junto381996
-Node: Bucle que se decrementa385728
-Node: Ejemplo de Decremento387178
-Node: Partes de Ejemplo Dec388775
-Node: Ejemplo Dec junto390864
-Node: Dolist y dotimes393246
-Node: dolist394127
-Node: dotimes397352
-Node: Recursión399000
-Node: Construyendo robots400277
-Node: Partes de definición recursiva402216
-Node: Recursión con lista404727
-Node: Función recursiva triángulo408437
-Node: Ejemplo recursivo y argumento con valor 1 o 2409959
-Node: Ejemplo Recursivo de 3 o 4 argumentos412268
-Node: Recursión con cond415253
-Node: Patrones recursivos417660
-Node: Cada418171
-Node: Acumular420716
-Node: Guardar422021
-Node: Sin Aplazar424005
-Node: No aplazar la solución426797
-Ref: No aplazar la solución-Footnote-1430924
-Ref: No aplazar la solución-Footnote-2431032
-Node: Ejercicio de Bucle431571
-Node: Buscar regexp432849
-Node: sentence-end435044
-Node: re-search-forward439143
-Node: forward-sentence441706
-Node: Completa forward-sentence442568
-Node: Bucles while fwd-sentence446161
-Node: Volver a buscar la frase en sentido directo449884
-Node: forward-paragraph452027
-Node: forward-paragraph en breve454025
-Node: fwd-para let455514
-Node: fwd-para while461295
-Node: etags470042
-Node: Revisar regexp474794
-Node: Ejercicios re-search477380
-Node: Contando palabras478217
-Node: Por qué Contar Palabras479035
-Node: count-words-example480191
-Node: Diseñar count-words-example481633
-Node: Error de espacio en blanco488770
-Node: recursive-count-words498967
-Node: Ejercicio de Contar511523
-Node: Palabras en una función511946
-Node: Divide y vencerás513826
-Node: Palabras y Símbolos515188
-Node: Sintaxis517379
-Node: count-words-in-defun521515
-Node: Varias funciones527892
-Node: Encontrar un fichero530491
-Node: lengths-list-file533189
-Node: Varios ficheros538730
-Node: lengths-list-many-files539527
-Node: append542473
-Node: Varios ficheros recursivamente543141
-Node: Preparar los datos546072
-Node: Datos para mostrar en detalle547282
-Node: Ordenando548243
-Node: Listar ficheros550004
-Node: Contando definiciones de función557945
-Node: Leyendo un grafo567472
-Node: Columnas de un grafo568917
-Node: graph-body-print583512
-Node: recursive-graph-body-print588298
-Node: Ejes Impresos591127
-Node: Ejercicio de Línea de Grafo591941
-Node: Inicialización de Emacs592170
-Node: Configuración por defecto593802
-Ref: Configuración por defecto-Footnote-1596071
-Node: Site-wide Init596427
-Node: defcustom598653
-Node: Empezando un fichero .emacs605190
-Node: Texto y Autorelleno607816
-Node: Alias de correo612177
-Node: Indentar modo de tabulaciones613214
-Node: Atajos de teclado614355
-Node: Mapas de teclado618254
-Node: Cargando ficheros620768
-Node: Autocarga623962
-Node: Extensión simple627062
-Ref: Extensión simple-Footnote-1629920
-Node: Colores X11630214
-Ref: Colores X11-Footnote-1632180
-Node: Miscelánea632367
-Node: Mode Line636898
-Node: Depurando642844
-Node: depurar643796
-Node: debug-on-entry647025
-Node: debug-on-quit650285
-Node: edebug651365
-Node: Ejercicios de depuración655726
-Node: Conclusión657641
-Node: the-the663346
-Node: Kill Ring666293
-Node: Qué hace el anillo de la muerte667138
-Node: current-kill668954
-Node: Código para current-kill669734
-Node: Comprendiendo current-kill672046
-Node: Cuerpo de current-kill672935
-Node: Disgresión concerniente de error676245
-Node: Determinando el elemento677508
-Node: pegar681314
-Node: yank-pop684630
-Node: fichero anillo687208
-Node: Grafo completo687618
-Node: Ejemplo etiquetado688491
-Node: print-graph Varlist690596
-Node: print-Y-axis692352
-Node: print-Y-axis en Detalle693231
-Node: Altura de etiqueta693968
-Node: Calcular un resto695974
-Node: Elemento del Eje Y699990
-Node: Y-axis-column703862
-Node: Penúltimo print-Y-axis705589
-Node: print-X-axis707634
-Node: Diferencias similares709015
-Node: Eje X marca tic709885
-Node: Imprimir Grafo Entero717127
-Node: La versión final718251
-Node: Testear print-graph722714
-Node: Graficar palabras en funciones724397
-Node: lambda727222
-Node: mapcar728986
-Node: Otro Error731152
-Node: Grafo impreso final736949
-Node: Software Libre y Manuales Libres737904
-Node: GNU Free Documentation License744827
-Node: Índice770013
-Node: Acerca del Autor808600
+Node: if en más detalle152431
+Node: tipo-de-animal en detalle155325
+Node: else157959
+Node: Verdad y falsedad161054
+Node: nil explicado162036
+Node: save-excursion164192
+Node: Punto y marca165020
+Node: Plantilla para save-excursion168171
+Node: Revisar169499
+Node: Ejercicios defun177724
+Node: Un paseo a través de los búffers178182
+Node: Encontrando más179427
+Node: simplified-beginning-of-buffer183566
+Node: mark-whole-buffer188256
+Node: resumen de mark-whole-buffer189145
+Node: Cuerpo de mark-whole-buffer190580
+Node: append-to-buffer193884
+Node: resumen de append-to-buffer194639
+Node: append interactivo197456
+Node: cuerpo append-to-buffer200028
+Node: append save-excursion202236
+Node: Revisa lo relacionado con el búffer207376
+Node: Ejercicios de búffer209551
+Node: Más complejidad210076
+Node: copy-to-buffer211208
+Node: insert-buffer214016
+Node: código insert-buffer215394
+Node: insert-buffer interactivo216442
+Node: Búffer solo lectura216990
+Node: b para interactivo217630
+Node: cuerpo insert-buffer218795
+Node: si y o220053
+Node: Insertar o223270
+Node: Insertar let225671
+Node: Nuevo insert-buffer229538
+Node: beginning-of-buffer230794
+Node: Argumentos opcionales232449
+Node: beginning-of-buffer opt arg235902
+Node: Desenmarañar beginning-of-buffer236908
+Node: El caso del buffer largo238210
+Node: Pequeño caso de búffer240809
+Node: Completo beginning-of-buffer242535
+Node: Revisar el segundo búffer relacionado245662
+Node: Ejercicio opcional247507
+Node: Encogiendo y extendiendo248010
+Node: Ventajas de encoger248713
+Node: save-restriction250731
+Node: what-line252774
+Node: Ejercicio narrow257175
+Node: Car cdr y cons258265
+Node: Nombres extraños259441
+Node: car y cdr260466
+Node: cons265049
+Node: Construir una lista266122
+Ref: Construir una lista-Footnote-1267816
+Node: length268033
+Node: nthcdr269667
+Node: nth272571
+Node: setcar273997
+Node: setcdr276387
+Node: Ejercicio cons277998
+Node: Cortando y almacenando texto278402
+Node: Almacenando Texto279960
+Node: zap-to-char282112
+Node: Completar zap-to-char283272
+Node: zap-to-char interactivo285389
+Node: cuerpo zap-to-char286948
+Node: search-forward288553
+Node: progn291747
+Node: Resumiendo zap-to-char293580
+Node: kill-region294753
+Node: Completa kill-region295791
+Node: condition-case300507
+Node: Macro Lisp303294
+Node: copy-region-as-kill305818
+Node: Completar copy-region-as-kill306778
+Node: cuerpo copy-region-as-kill309837
+Node: last-command & this-command310994
+Node: Función kill-append313345
+Node: Función kill-new317560
+Node: Disgresión dentro de C329139
+Ref: Disgresión dentro de C-Footnote-1334651
+Node: defvar334844
+Node: Mira el valor actual de la variable336519
+Node: defvar y asterisk338540
+Node: Revisión de cons y search-fwd340522
+Node: Buscar ejercicios343702
+Node: Implementación de listas344537
+Node: Listas diagramadas345717
+Node: Símbolos como cajas352171
+Node: Ejercicio Lista354307
+Node: Pegando354686
+Node: Resumen del anillo de la muerte356213
+Node: kill-ring-yank-pointer358184
+Node: pegar Ejercicio nthcdr360855
+Node: Bucles y recursión361766
+Ref: Bucles y recursión-Footnote-1362989
+Node: while363567
+Node: Bucles while365105
+Node: Ejemplo de bucle366939
+Node: print-elements-of-list370507
+Node: Incrementando el Bucle373207
+Node: Incrementando los detalles de los bucles373830
+Node: Ejemplo de Incremento375342
+Node: Partes Inc de Ejemplo377822
+Node: Ejemplo Inc junto381989
+Node: Bucle que se decrementa385721
+Node: Ejemplo de Decremento387171
+Node: Partes de Ejemplo Dec388768
+Node: Ejemplo Dec junto390857
+Node: Dolist y dotimes393239
+Node: dolist394120
+Node: dotimes397345
+Node: Recursión398993
+Node: Construyendo robots400270
+Node: Partes de definición recursiva402209
+Node: Recursión con lista404720
+Node: Función recursiva triángulo408430
+Node: Ejemplo recursivo y argumento con valor 1 o 2409952
+Node: Ejemplo Recursivo de 3 o 4 argumentos412261
+Node: Recursión con cond415246
+Node: Patrones recursivos417653
+Node: Cada418164
+Node: Acumular420709
+Node: Guardar422014
+Node: Sin Aplazar423998
+Node: No aplazar la solución426790
+Ref: No aplazar la solución-Footnote-1430917
+Ref: No aplazar la solución-Footnote-2431025
+Node: Ejercicio de Bucle431564
+Node: Buscar regexp432842
+Node: sentence-end435037
+Node: re-search-forward439136
+Node: forward-sentence441699
+Node: Completa forward-sentence442561
+Node: Bucles while fwd-sentence446154
+Node: Volver a buscar la frase en sentido directo449877
+Node: forward-paragraph452020
+Node: forward-paragraph en breve454018
+Node: fwd-para let455507
+Node: fwd-para while461288
+Node: etags470035
+Node: Revisar regexp474787
+Node: Ejercicios re-search477373
+Node: Contando palabras478210
+Node: Por qué Contar Palabras479028
+Node: count-words-example480184
+Node: Diseñar count-words-example481626
+Node: Error de espacio en blanco488763
+Node: recursive-count-words498960
+Node: Ejercicio de Contar511516
+Node: Palabras en una función511939
+Node: Divide y vencerás513819
+Node: Palabras y Símbolos515181
+Node: Sintaxis517372
+Node: count-words-in-defun521508
+Node: Varias funciones527885
+Node: Encontrar un fichero530484
+Node: lengths-list-file533182
+Node: Varios ficheros538723
+Node: lengths-list-many-files539520
+Node: append542466
+Node: Varios ficheros recursivamente543134
+Node: Preparar los datos546065
+Node: Datos para mostrar en detalle547275
+Node: Ordenando548236
+Node: Listar ficheros549997
+Node: Contando definiciones de función557938
+Node: Leyendo un grafo567465
+Node: Columnas de un grafo568910
+Node: graph-body-print583505
+Node: recursive-graph-body-print588291
+Node: Ejes Impresos591120
+Node: Ejercicio de Línea de Grafo591934
+Node: Inicialización de Emacs592163
+Node: Configuración por defecto593795
+Ref: Configuración por defecto-Footnote-1596064
+Node: Site-wide Init596420
+Node: defcustom598646
+Node: Empezando un fichero .emacs605183
+Node: Texto y Autorelleno607809
+Node: Alias de correo612170
+Node: Indentar modo de tabulaciones613207
+Node: Atajos de teclado614348
+Node: Mapas de teclado618247
+Node: Cargando ficheros620761
+Node: Autocarga623955
+Node: Extensión simple627055
+Ref: Extensión simple-Footnote-1629913
+Node: Colores X11630207
+Ref: Colores X11-Footnote-1632173
+Node: Miscelánea632360
+Node: Mode Line636891
+Node: Depurando642837
+Node: depurar643789
+Node: debug-on-entry647018
+Node: debug-on-quit650278
+Node: edebug651358
+Node: Ejercicios de depuración655719
+Node: Conclusión657634
+Node: the-the663339
+Node: Kill Ring666286
+Node: Qué hace el anillo de la muerte667131
+Node: current-kill668947
+Node: Código para current-kill669727
+Node: Comprendiendo current-kill672039
+Node: Cuerpo de current-kill672928
+Node: Disgresión concerniente de error676238
+Node: Determinando el elemento677501
+Node: pegar681307
+Node: yank-pop684623
+Node: fichero anillo687201
+Node: Grafo completo687611
+Node: Ejemplo etiquetado688484
+Node: print-graph Varlist690589
+Node: print-Y-axis692345
+Node: print-Y-axis en Detalle693224
+Node: Altura de etiqueta693961
+Node: Calcular un resto695967
+Node: Elemento del Eje Y699983
+Node: Y-axis-column703855
+Node: Penúltimo print-Y-axis705582
+Node: print-X-axis707627
+Node: Diferencias similares709008
+Node: Eje X marca tic709878
+Node: Imprimir Grafo Entero717120
+Node: La versión final718244
+Node: Testear print-graph722707
+Node: Graficar palabras en funciones724390
+Node: lambda727215
+Node: mapcar728979
+Node: Otro Error731145
+Node: Grafo impreso final736942
+Node: Software Libre y Manuales Libres737897
+Node: GNU Free Documentation License744820
+Node: Índice770006
+Node: Acerca del Autor808593
 
 End Tag Table
 
