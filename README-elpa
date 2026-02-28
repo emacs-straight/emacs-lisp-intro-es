@@ -3,14 +3,25 @@
                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-                                  2014
+                                  2026
 
 
 1 Installation
 ══════════════
 
+1.1 Debian/Ubuntu
+─────────────────
+
   ┌────
   │ $ sudo apt-get install texlive make texi2html po4a texinfo
+  └────
+
+
+1.2 MacOS
+─────────
+
+  ┌────
+  │ $ brew install texlive make texi2html po4a texinfo
   └────
 
 
@@ -21,6 +32,7 @@
   │ $ ./dotexi.sh 
   │ $ make emacs-lisp-intro-es.html
   │ $ make emacs-lisp-intro-es.pdf
+  │ $ make emacs-lisp-intro-es.info
   └────
 
 
@@ -32,7 +44,14 @@
   └────
 
 
-4 License
+4 Contributing
+══════════════
+
+  The upstream repository is maintained at
+  <https://savannah.nongnu.org/p/elisp-es>
+
+
+5 License
 ═════════
 
   Copyright (C) 2014 David Arroyo Menéndez Permission is granted to
