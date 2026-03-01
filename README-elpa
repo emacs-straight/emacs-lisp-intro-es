@@ -29,7 +29,6 @@
 ═════════════════════
 
   ┌────
-  │ $ ./dotexi.sh 
   │ $ make emacs-lisp-intro-es.html
   │ $ make emacs-lisp-intro-es.pdf
   │ $ make emacs-lisp-intro-es.info
