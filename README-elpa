@@ -6,10 +6,29 @@
                                   2026
 
 
-1 Installation
+1 Downloading the manual
+════════════════════════
+
+1.1 PDF
+───────
+
+  ┌────
+  │ $ wget -c https://elpa.gnu.org/devel/doc/emacs-lisp-intro-es/emacs-lisp-intro-es.pdf
+  └────
+
+
+1.2 HTML
+────────
+
+  ┌────
+  │ $ https://elpa.gnu.org/devel/doc/emacs-lisp-intro-es.html
+  └────
+
+
+2 Installation
 ══════════════
 
-1.1 Debian/Ubuntu
+2.1 Debian/Ubuntu
 ─────────────────
 
   ┌────
@@ -17,7 +36,7 @@
   └────
 
 
-1.2 MacOS
+2.2 MacOS
 ─────────
 
   ┌────
@@ -25,7 +44,7 @@
   └────
 
 
-2 Create object files
+3 Create object files
 ═════════════════════
 
   ┌────
@@ -35,7 +54,7 @@
   └────
 
 
-3 Clean files
+4 Clean files
 ═════════════
 
   ┌────
@@ -43,14 +62,14 @@
   └────
 
 
-4 Contributing
+5 Contributing
 ══════════════
 
   The upstream repository is maintained at
   <https://savannah.nongnu.org/p/elisp-es>
 
 
-5 License
+6 License
 ═════════
 
   Copyright (C) 2014 David Arroyo Menéndez Permission is granted to
