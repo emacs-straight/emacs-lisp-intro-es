@@ -226,8 +226,10 @@
 
 @dircategory GNU Emacs Lisp
 @direntry
-* Introducci@'on a Emacs Lisp: (eintr).  Una introducci@'on simple a la 
-                                           programaci@'on a Emacs Lisp
+* Introducción a Emacs Lisp: (emacs-lisp-intro-es).  Una introducci@'on 
+                                                       simple a la 
+                                                       programaci@'on a Emacs 
+                                                       Lisp
 @end direntry
 
 @copying

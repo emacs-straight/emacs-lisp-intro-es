@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdfetex 2025.11.26)  3 MAR 2026 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdfetex 2025.11.26)  10 MAR 2026 09:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,7 +208,7 @@ already used, duplicate ignored
                                                   @headlinebox @pagebody {#1...
 <output> ...ark @onepageout {@pagecontents @PAGE }
                                                   }
-l.1391 
+l.1393 
         [1]
 pdfTeX warning (ext4): destination with the same identifier (name{2}) has been 
 already used, duplicate ignored
@@ -220,7 +220,7 @@ already used, duplicate ignored
                                                   }
 @\need ...-@dimen 0 @vskip @dimen 0 @penalty 9999 
                                                   @vskip -@dimen 0 @penalty ...
-l.1451 @need 1250
+l.1453 @need 1250
                   [2]
 pdfTeX warning (ext4): destination with the same identifier (name{3}) has been 
 already used, duplicate ignored
@@ -230,7 +230,7 @@ already used, duplicate ignored
                                                   @headlinebox @pagebody {#1...
 <output> ...ark @onepageout {@pagecontents @PAGE }
                                                   }
-l.1551 
+l.1553 
         [3]
 pdfTeX warning (ext4): destination with the same identifier (name{4}) has been 
 already used, duplicate ignored
@@ -242,10 +242,10 @@ already used, duplicate ignored
                                                   }
 <to be read again> 
                    L
-l.1626 L
+l.1628 L
         o que se hace es evaluar una lista que no est@'a citada y no tiene un
 [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (14.7021pt too wide) in paragraph at lines 2457--2457
+Overfull \hbox (14.7021pt too wide) in paragraph at lines 2459--2459
  []@reducedtt Debugger entered--Lisp error: (wrong-type-argument number-or-mark
 er-p hola)[] 
 
@@ -258,7 +258,7 @@ er-p hola)[]
 .etc.
 
 [14] [15] [16] [17] [18] Cap@'{@char 16{}}tulo 2 [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 3045--3049
+Underfull \hbox (badness 10000) in paragraph at lines 3047--3051
 []@textrm Por otro la-do, mien-tras es-cri-bo este doc-u-men-to, el val-or de-v
 uel-
 
@@ -271,7 +271,7 @@ uel-
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3045--3049
+Underfull \hbox (badness 10000) in paragraph at lines 3047--3051
 @textrm to por la eval-u-aci^^Son de @ssectt (buffer-name)[] @textrm es @ssectt
  "introduction.texinfo"[]@textrm ,
 
@@ -284,7 +284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3045--3049
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3045--3049
+Underfull \hbox (badness 10000) in paragraph at lines 3047--3051
 @textrm y el val-or de-vuel-to por la eval-u-aci^^Son de @ssectt (buffer-file-n
 ame)[] @textrm es
 
@@ -297,7 +297,7 @@ ame)[] @textrm es
 .etc.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3060--3063
+Underfull \hbox (badness 10000) in paragraph at lines 3062--3065
 []@textrm Cuando es-toy es-cri-bi-en-do, el nom-bre de mi b^^Suffer es
 
 @hbox(6.94444+1.94444)x361.34999, glue set 8.83252
@@ -309,14 +309,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3060--3063
 .etc.
 
 [21] [22] [23] [24] Cap@'{@char 16{}}tulo 3 [25] [26] [27] [28]
-l.3757: Undefined cross reference `Beginning a .emacs File-snt'.
-l.3757: Undefined cross reference `Beginning a .emacs File-snt'.
-l.3757: Undefined cross reference `Beginning a .emacs File-pg'. [29] [30]
+l.3759: Undefined cross reference `Beginning a .emacs File-snt'.
+l.3759: Undefined cross reference `Beginning a .emacs File-snt'.
+l.3759: Undefined cross reference `Beginning a .emacs File-pg'. [29] [30]
 [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45]
 [46] Cap@'{@char 16{}}tulo 4 [47] [48] [49] [50] [51] [52] [53] [54] [55]
 [56] [57] [58] Cap@'{@char 16{}}tulo 5 [59] [60] [61] [62] [63] [64] [65]
 [66] [67] [68] [69]
-Overfull \hbox (28.87694pt too wide) in paragraph at lines 6958--6958
+Overfull \hbox (28.87694pt too wide) in paragraph at lines 6960--6960
  []                          @reducedtt ;; !`Evita sobrecarga para grandes tama
 ~nos de b^^Suffer![] 
 
@@ -331,7 +331,7 @@ Overfull \hbox (28.87694pt too wide) in paragraph at lines 6958--6958
 [70] [71] Cap@'{@char 16{}}tulo 6 [72] [73] [74] [75] [76]
 Cap@'{@char 16{}}tulo 7 [77] [78] [79] [80] [81] [82] [83] [84]
 Cap@'{@char 16{}}tulo 8 [85] [86] [87] [88] [89] [90] [91] [92]
-Overfull \hbox (61.95155pt too wide) in paragraph at lines 8743--8743
+Overfull \hbox (61.95155pt too wide) in paragraph at lines 8745--8745
  []     @reducedtt ;;    Lo siguiente, tambi^^Sen como parte de la then-part, a
 signa this-command, as^^S^^P[] 
 
@@ -344,7 +344,7 @@ signa this-command, as^^S^^P[]
 .etc.
 
 [93] [94] [95] [96]
-Overfull \hbox (28.87708pt too wide) in paragraph at lines 9197--9197
+Overfull \hbox (28.87708pt too wide) in paragraph at lines 9199--9199
  []  @reducedtt "Inserta STRING al fin del ^^Sultimo corte en el anillo de la m
 uerte @reducedttsl kill ring@reducedtt .[] 
 
@@ -363,15 +363,15 @@ s-1.pdf> </home/elpa/elpa/packages/emacs-lisp-intro-es/cons-2.pdf> [109] </home
 emacs-lisp-intro-es/cons-3.pdf> [110] </home/elpa/elpa/packages/emacs-lisp-intr
 o-es/cons-4.pdf> [111] </home/elpa/elpa/packages/emacs-lisp-intro-es/drawers.pd
 f> Cap@'{@char 16{}}tulo 10 [112]
-l.10761: Undefined cross reference `Qu@'e hace el anillo de la muerte-snt'.
-l.10761: Undefined cross reference `Qu@'e hace el anillo de la muerte-snt'.
-l.10761: Undefined cross reference `Qu@'e hace el anillo de la muerte-pg'.
+l.10763: Undefined cross reference `Qu@'e hace el anillo de la muerte-snt'.
+l.10763: Undefined cross reference `Qu@'e hace el anillo de la muerte-snt'.
+l.10763: Undefined cross reference `Qu@'e hace el anillo de la muerte-pg'.
 [113] </home/elpa/elpa/packages/emacs-lisp-intro-es/cons-5.pdf> [114]
 Cap@'{@char 16{}}tulo 11 [115] [116] [117] [118] [119] [120] [121] [122]
 [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134]
 [135] [136] [137] [138] [139] Cap@'{@char 16{}}tulo 12 [140] [141] [142]
 [143]
-Overfull \hbox (19.42705pt too wide) in paragraph at lines 13374--13374
+Overfull \hbox (19.42705pt too wide) in paragraph at lines 13376--13376
  []@reducedtt Con el argumento negativo, mueve atr^^Sas repetidamente a ^^Rsent
 ence-beginning^^M.[] 
 
@@ -389,7 +389,7 @@ Cap@'{@char 16{}}tulo 13 [156] [157] [158] [159] [160] [161] [162] [163]
 [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
 [184] [185] [186] [187] [188] Cap@'{@char 16{}}tulo 15 [189] [190] [191]
 [192] [193]
-Overfull \hbox (19.42705pt too wide) in paragraph at lines 17501--17501
+Overfull \hbox (19.42705pt too wide) in paragraph at lines 17503--17503
  []@reducedtt graph-blank debe ser el mismo n^^Sumero de columnas amplio como g
 raph-symbol.")[] 
 
@@ -403,7 +403,7 @@ raph-symbol.")[]
 
 [194] [195] [196] [197] Cap@'{@char 16{}}tulo 16 [198] [199] [200] [201]
 [202] [203] [204] [205] [206] [207] [208] [209] [210] [211] [212] [213]
-Overfull \hbox (12.75859pt too wide) in paragraph at lines 19130--19130
+Overfull \hbox (12.75859pt too wide) in paragraph at lines 19132--19132
  []@reducedtt ;; Recuerda que se puede habilitar o deshabilitar el texto de len
 guaje[] 
 
@@ -418,7 +418,7 @@ guaje[]
 [214] [215] [216] Cap@'{@char 16{}}tulo 17 [217] [218] [219] [220] [221]
 [222] Cap@'{@char 16{}}tulo 18 [223] [224] Ap@'endice A [225] [226]
 Ap@'endice B [227] [228]
-Overfull \hbox (14.7021pt too wide) in paragraph at lines 20273--20273
+Overfull \hbox (14.7021pt too wide) in paragraph at lines 20275--20275
  []                                  @reducedtt (funcall interprogram-paste-fun
 ction)))))[] 
 
@@ -431,7 +431,7 @@ ction)))))[]
 .etc.
 
 
-Overfull \hbox (28.87694pt too wide) in paragraph at lines 20326--20326
+Overfull \hbox (28.87694pt too wide) in paragraph at lines 20328--20328
  []  @reducedtt "Rota el punto a pegar por N lugares, y entonces devuelve el te
 xto cortado."[] 
 
